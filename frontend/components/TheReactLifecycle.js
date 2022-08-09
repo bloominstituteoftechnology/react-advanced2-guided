@@ -29,10 +29,11 @@ class Child extends React.Component {
     console.log('👉 constructor function ran')
   }
   componentDidMount() {
+    console.log('👉 constructor function ran')
     // ????
   }
   componentWillUnmount() {
-
+    // ????
   }
   incrementCount = () => {
     // this.state.count++ // NOOOO
