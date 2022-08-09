@@ -37,7 +37,7 @@ class Child extends React.Component {
   }
   componentWillUnmount() {
     console.log('👉 component about to be unmounted')
-    document.re
+    document.removeEventListener('click', this.clickLog)
   }
 
   // useEffect(() => {
