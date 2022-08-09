@@ -37,10 +37,12 @@ class Child extends React.Component {
     // ????
   }
 
-  useEffect(() => {
-    // ???
-    
-  }, [])
+  // useEffect(() => {
+  //   // ??? stuff after first render
+  //   return () => {
+  //     // ??? stuff right before it unmounts
+  //   }
+  // }, [])
 
   incrementCount = () => {
     // this.state.count++ // NOOOO
