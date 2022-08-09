@@ -40,6 +40,9 @@ class Child extends React.Component {
     document.removeEventListener('click', this.clickLog)
   }
   componentDidUpdate(oldProps, oldState) {
+
+    this.setState(this.state)
+
     console.log('👉 component updated')
     console.log(oldState, this.state)
     if (this.state.count === 5) {
