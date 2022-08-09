@@ -30,7 +30,7 @@ class Child extends React.Component {
   }
   incrementCount = () => {
     this.state.count++
-    this.state += 1
+    this.state.count += 1
   }
   render() {
     return (
