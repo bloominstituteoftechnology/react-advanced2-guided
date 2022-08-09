@@ -29,7 +29,7 @@ class Child extends React.Component {
     console.log('👉 constructor function ran')
   }
   incrementCount = () => {
-
+    
   }
   render() {
     return (
