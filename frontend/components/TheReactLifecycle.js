@@ -29,8 +29,9 @@ class Child extends React.Component {
     console.log('👉 constructor function ran')
   }
   incrementCount = () => {
-    this.state.count++
-    this.state.count += 1
+    // this.state.count++ // NOOOO
+    // this.state.count += 1 // NOOOO
+    this.setState()
   }
   render() {
     return (
