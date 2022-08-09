@@ -40,14 +40,11 @@ class Child extends React.Component {
     document.removeEventListener('click', this.clickLog)
   }
   componentDidUpdate(oldProps, oldState) {
-
-    this.setState(this.state)
-
     console.log('👉 component updated')
     console.log(oldState, this.state)
     if (this.state.count === 5) {
-      // trigger a subsequent state change
       // log out stuff
+      // trigger a subsequent state change
       // trigger an event for the world outside the react app...
       // if we change state further from here, do it inside a conditional
     }
