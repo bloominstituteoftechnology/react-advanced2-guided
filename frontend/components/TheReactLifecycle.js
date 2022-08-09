@@ -36,6 +36,12 @@ class Child extends React.Component {
     console.log('👉 component about to be unmounted')
     // ????
   }
+
+  useEffect(() => {
+    // ???
+    
+  }, [])
+
   incrementCount = () => {
     // this.state.count++ // NOOOO
     // this.state.count += 1 // NOOOO
