@@ -31,9 +31,10 @@ class Child extends React.Component {
   incrementCount = () => {
     // this.state.count++ // NOOOO
     // this.state.count += 1 // NOOOO
-    this.setState(state => ({ count: state.count + 1}))
+    this.setState(state => ({ count: state.count + 1 }))
   }
   render() {
+    console.log('👉 render function ran')
     return (
       <div className="child">
         <h3>The count is {this.state.count}</h3>
