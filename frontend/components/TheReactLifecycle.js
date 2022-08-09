@@ -42,14 +42,20 @@ class Child extends React.Component {
   componentDidUpdate(oldProps, oldState) {
     console.log('👉 component updated')
     console.log(oldState, this.state)
+    if (this.state.count === 5) {
+      // trigger a subsequent state change
+      // log out stuff
+      // trigger an event for the world outside the react app...
+      // if we change state further from here, do it inside a conditional
+    }
   }
 
   // useEffect(() => {
   //   // ??? stuff after first render
-       // document.addEventListener('click', clickLog)
+  // document.addEventListener('click', clickLog)
   //   return () => {
   //     // ??? stuff right before it unmounts
-         // document.removeEventListener('click', clickLog)
+  // document.removeEventListener('click', clickLog)
   //   }
   // }, [])
 
