@@ -57,7 +57,7 @@ class Child extends React.Component {
   //     // ??? stuff right before it unmounts
   // document.removeEventListener('click', clickLog)
   //   }
-  // }, [])
+  // }, [foo])
 
   incrementCount = () => {
     // this.state.count++ // NOOOO
