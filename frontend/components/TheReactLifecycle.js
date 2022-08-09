@@ -8,14 +8,14 @@ export default class App extends React.Component {
   toggleChild = () => {
     // this.state.renderChild = !this.state.renderChild // NOOOO
     // this.setState({ renderChild: !this.state.renderChild}) // object syntax
-    this.setState(state => ({ renderChild: !state.renderChild})) // callback syntax
+    this.setState(state => ({ renderChild: !state.renderChild })) // callback syntax
   }
   render() {
     return (
       <div>
         <h2>The React Lifecycle</h2>
         <button onClick={this.toggleChild}>toggle child</button>
-        { this.state.renderChild ? <Child /> : null }
+        {this.state.renderChild ? <Child /> : null}
         {/* { this.state.renderChild && <Child /> } */}
       </div>
     )
