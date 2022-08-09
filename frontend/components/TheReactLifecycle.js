@@ -28,6 +28,12 @@ class Child extends React.Component {
     this.state = { count: 0 }
     console.log('👉 constructor function ran')
   }
+  componentDidMount() {
+    // ????
+  }
+  componentWillUnmount() {
+
+  }
   incrementCount = () => {
     // this.state.count++ // NOOOO
     // this.state.count += 1 // NOOOO
