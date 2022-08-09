@@ -13,7 +13,7 @@ export default class App extends React.Component {
       <div>
         <h2>The React Lifecycle</h2>
         <button onClick={this.toggleChild}>toggle child</button>
-        { this.state.renderChild && <Child /> }
+        { this.state.renderChild ? <Child /> : null }
       </div>
     )
   }
