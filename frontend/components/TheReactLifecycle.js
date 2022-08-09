@@ -29,7 +29,7 @@ class Child extends React.Component {
     console.log('👉 constructor function ran')
   }
   clickLog = () => {
-    console.log('you clicked the document')
+    // console.log('you clicked the document')
   }
   componentDidMount() {
     console.log('👉 component was mounted')
