@@ -43,7 +43,7 @@ class Child extends React.Component {
     console.log('👉 component updated')
     console.log(oldState, this.state)
     if (this.state.count === 5) {
-      const evt = new CustomEvent('COUNT_FIVE', this.state)
+      const evt = new CustomEvent('COUNT_FIVE', { detail: this.state })
       document.dispatchEvent(evt)
       // log out stuff
       // trigger a subsequent state change
