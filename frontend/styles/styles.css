@@ -15,19 +15,24 @@ body::after {
   z-index: -1;
 }
 
-body, input, button {
+body,
+input,
+button {
   font-family: 'Titillium Web', sans-serif;
   color: #484848;
 }
 
-#root, #wrapper {
+#root,
+#wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 1rem;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: #93005a;
 
 }
@@ -71,7 +76,8 @@ nav a {
   font-size: 0.75rem;
 }
 
-ul, form {
+ul,
+form {
   margin: 1rem 0 2rem 0;
 }
 
@@ -97,14 +103,10 @@ div {
   align-items: center;
 }
 
-div.parent {
-  padding: 1rem;
-  color: #555;
-}
-
 div.child {
   margin: 1.5rem;
   padding: 1rem;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 0.3rem;
   color: #555;
 }

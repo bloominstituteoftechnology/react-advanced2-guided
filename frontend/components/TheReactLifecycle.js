@@ -10,16 +10,16 @@ export default class App extends React.Component {
   }
   render() {
     return (
-      <div className="parent">
+      <div>
         <h2>The React Lifecycle</h2>
         <button onClick={this.toggleChild}>toggle child</button>
-        <TheChild />
+        <Child />
       </div>
     )
   }
 }
 
-class TheChild extends React.Component {
+class Child extends React.Component {
   constructor(props) {
     super(props)
     this.state = { count: 0 }
