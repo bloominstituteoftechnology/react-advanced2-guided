@@ -28,9 +28,12 @@ class Child extends React.Component {
     this.state = { count: 0 }
     console.log('👉 constructor function ran')
   }
+  clickLog = () => {
+    console.log()
+  }
   componentDidMount() {
     console.log('👉 component was mounted')
-    // axios.get() etc
+
   }
   componentWillUnmount() {
     console.log('👉 component about to be unmounted')
