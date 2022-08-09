@@ -32,6 +32,7 @@ class Child extends React.Component {
     // this.state.count++ // NOOOO
     // this.state.count += 1 // NOOOO
     this.setState(state => ({ count: state.count + 1 }))
+    console.log('👉 state was scheduled to update')
   }
   render() {
     console.log('👉 render function ran')
