@@ -40,7 +40,7 @@ class Child extends React.Component {
     document.removeEventListener('click', this.clickLog)
   }
   componentDidUpdate() {
-    
+    console.log('👉 component updated')
   }
 
   // useEffect(() => {
