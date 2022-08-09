@@ -3,7 +3,7 @@ import React from 'react'
 export default class App extends React.Component {
   constructor(props) {
     super(props)
-    this.state = { shouldRenderChild: false }
+    this.state = { renderChild: false }
   }
   toggleChild = () => {
 
@@ -11,7 +11,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="parent">
-        <h2>The React Life Cycle</h2>
+        <h2>The React Lifecycle</h2>
         <button onClick={this.toggleChild}>toggle child</button>
         <TheChild />
       </div>
