@@ -42,7 +42,7 @@ class Child extends React.Component {
 
   // useEffect(() => {
   //   // ??? stuff after first render
-      // document.addEventListener('click', clickLog)
+       // document.addEventListener('click', clickLog)
   //   return () => {
   //     // ??? stuff right before it unmounts
          // document.removeEventListener('click', clickLog)
