@@ -30,7 +30,7 @@ class Child extends React.Component {
   }
   componentDidMount() {
     console.log('👉 component was mounted')
-    // ????
+    // axios.get() etc
   }
   componentWillUnmount() {
     console.log('👉 component about to be unmounted')
