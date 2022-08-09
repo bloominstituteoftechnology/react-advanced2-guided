@@ -31,7 +31,7 @@ class Child extends React.Component {
   incrementCount = () => {
     // this.state.count++ // NOOOO
     // this.state.count += 1 // NOOOO
-    this.setState(state => ({ count: state.count}))
+    this.setState(state => ({ count: state.count + 1}))
   }
   render() {
     return (
